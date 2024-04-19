@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From Scratch</title>
+    <link rel="stylesheet" type="text/css" href="css/myStyles.css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <span
+        ><a href="index.html" class="styleLinks header-text">Home</a>
+        <a href="myPage.html" class="styleLinks header-text"
+          >From-scratch Page</a
+        ></span
+      >
+    </header>
+
+    <main>
+      <div class="body">
+        <div>
+            <ol>
+          <li><h4><a href="#resume" class="styleLinks">Go to Resume</a></h4>
+            <ul>
+                <li>
+                    It's not listed
+                </li>
+                <li>
+                    But one skill I have
+                </li>
+                <li>
+                    Is the ability to make unordered lists in ordered lists
+                </li>
+            </ul>
+        </li>
+          <li><h4>
+            <a href="#viz1713490120331" class="styleLinks">Go to Tableau</a>
+          </h4></li>
+          <li><h4><a href="#video" class="styleLinks">Go to Video</a></h4></li>
+        </ol>
+        </div>
+        <div id="resume">
+          <h1 class="text-center">Ethan Cox</h1>
+          <div>
+            <h2>EDUCATION</h2>
+            <hr>
+            <p class="bold">Brigham Young University</p>
+            <p class="italic">BS, Computer Science</p>
+            <ul>
+              <li>GPA 4.00/4.00</li>
+              <li>Relevant Course Work: 
+                <ol>
+                  <li>Introduction to Computer Science</li>
+                  <li>Data Structures</li>
+                  <li>Discrete Structures</li>
+              </li>
+              <!-- Add more education entries as needed -->
+            </ul>
+          </div>
+
+          <div>
+            <h2>EXPERIENCE</h2>
+            <hr>
+            <p class="bold">Brigham Young University</p>
+            <p class="italic">CS 111 Teaching Assistant</p>
+            <ul>
+              <li>Teach students introductory computer science topics and assist in coding implementation</li>
+            </ul>
+            <br>
+            <p class="bold">Sunrise Engineering</p>
+            <p class="italic">Survey Intern</p>
+            <ul>
+              <li>Assist in surveying and drafting for various projects</li>
+              <li>Constructed dozes of 3D models, point clouds, and images from survey data using modeleling software
+              </li>
+            </ul>
+          </div>
+
+          <div >
+            <h2>LEADERSHIP AND SERVICE</h2>
+            <hr>
+            <p class="bold">Church of Jesus Christ of Latter-day Saints</p>
+            <p class="italic">Volunteer Representative</p>
+            <ul>
+              <li>Planned, conducted, and trained at weekly 90-minute meetings to improve volunteer efforts</li>
+              <li>Appointed to several leadership roles, including administration of up to 40 volunteers and one-on-one training of another volunteer for three months</li>
+              <!-- Add more leadership and service entries as needed -->
+            </ul>
+          </div>
+
+          <div >
+            <h2>AWARDS AND SKILLS</h2>
+            <hr>
+            <ul>
+              <li>High School Salutatorian</li>
+              <li>Eagle Scout, Boy Scouts of America</li>
+              <!-- Add more awards and skills entries as needed -->
+            </ul>
+          </div>
+        </div>
+
+        <div id="dashboard-container">
+          <div
+            class="tableauPlaceholder"
+            id="viz1713490120331"
+            style="position: relative"
+          >
+            <noscript
+              ><a href="#"
+                ><img
+                  alt="Price of Prosperity "
+                  src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;59&#47;59SPX4B6K&#47;1_rss.png"
+                  style="border: none" /></a></noscript
+            ><object class="tableauViz" style="display: none">
+              <param
+                name="host_url"
+                value="https%3A%2F%2Fpublic.tableau.com%2F"
+              />
+              <param name="embed_code_version" value="3" />
+              <param name="path" value="shared&#47;59SPX4B6K" />
+              <param name="toolbar" value="yes" />
+              <param
+                name="static_image"
+                value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;59&#47;59SPX4B6K&#47;1.png"
+              />
+              <param name="animate_transition" value="yes" />
+              <param name="display_static_image" value="yes" />
+              <param name="display_spinner" value="yes" />
+              <param name="display_overlay" value="yes" />
+              <param name="display_count" value="yes" />
+              <param name="language" value="en-US" />
+            </object>
+          </div>
+          <script type="text/javascript">
+            var divElement = document.getElementById("viz1713490120331");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+            if (divElement.offsetWidth > 800) {
+              vizElement.style.width = "1366px";
+              vizElement.style.height = "927px";
+            } else if (divElement.offsetWidth > 500) {
+              vizElement.style.width = "1366px";
+              vizElement.style.height = "927px";
+            } else {
+              vizElement.style.width = "100%";
+              vizElement.style.height = "2677px";
+            }
+            var scriptElement = document.createElement("script");
+            scriptElement.src =
+              "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+        </div>
+
+        <div>
+          <iframe
+            id="video"
+            width="643"
+            height="362"
+            src="https://www.youtube.com/embed/Z4pCqK-V_Wo"
+            title="CSS in 5 minutes"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer text-center">
+      <span>Author: Ethan Cox</span>
+    </footer>
+  </body>
+</html>
